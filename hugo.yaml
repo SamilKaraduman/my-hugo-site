@@ -1,0 +1,79 @@
+baseURL: 'https://samilkaraduman.github.io'
+languageCode: en-us
+title: Samil Karaduman
+theme: PaperMod
+
+
+
+assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "profilepicture.png"
+
+
+
+params:
+  cover:
+      linkFullImages: true
+      hideInList: false
+      hiddenInSingle: false
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  hideDescriptionInList: false
+  socialIcons:
+          - name: youtube
+            url: "https://youtube.com"
+          - name: github
+            url: "https://github.com/SamilKaraduman"
+          - name: linkedin
+            url: "https://www.linkedin.com/in/samil-karaduman-3a8884292/"
+          - name: kofi
+            url: "https://ko-fi.com/samilkaraduman"
+          - name: rss
+            url: "index.xml"
+
+  contentDir: content/blog/
+  staticDir: static/
+  publishDir: "data"
+  profileMode:
+      enabled: true
+      title: I'm Samil!
+      subtitle: "Welcome to my ~/home on the internet."
+      imageUrl: "profilepicture.png"
+      imageWidth: 120
+      imageHeight: 120
+      imageTitle: Join me on my learning adventure!
+      
+     
+       
+
+      fuseOpts:
+         isCaseSensitive: false
+         shouldSort: true
+         location: 0
+         distance: 1000
+         threshold: 0.4
+         minMatchCharLength: 0
+         keys: ["title", "permalink", "summary", "content"]
+menu:
+   main:
+     - identifier: About Me
+       name: About Me
+       url: /about/aboutme
+       weight: 5
+     - identifier: Blog
+       name: Blog
+       url: /blog
+       weight: 10
+    
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup: 
+   goldmark:
+       renderer:
+          unsafe: true
