@@ -1,4 +1,4 @@
-# Samil's personal Hugo Site
+# Samil's Personal Hugo Site
 
 This is the repository hosting the files for my [personal website](https://samilkaraduman.github.io).  
 
