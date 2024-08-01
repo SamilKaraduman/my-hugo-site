@@ -25,5 +25,5 @@ You will then have a web server running at http://localhost:1313.
 
 ## Credits
 
-- **PaperMod Theme**: This website leverages the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme. Thank you to [Aditya Telange ](https://github.com/adityatelange) for your hard work!
+- **PaperMod Theme**: This website leverages the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme. Thanks to [Aditya Telange ](https://github.com/adityatelange) for their hard work!
 
