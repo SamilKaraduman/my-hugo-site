@@ -8,7 +8,12 @@ theme: PaperMod
 assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "profilepicture.png"
+    favicon: "icon.ico"
+    favicon16x16: "icon-16x16.png"
+    favicon32x32: "icon-32x32.png"
+    apple_touch_icon: "apple-touch-fav-icon.png"
+    android_chrome_192: "android-chrome-192x192-icon.png"
+    android_chrome_512: "android-chrome-512x512-icon.png"
 
 
 
@@ -21,17 +26,13 @@ params:
   ShowPostNavLinks: true
   hideDescriptionInList: false
   socialIcons:
-          - name: youtube
-            url: "https://youtube.com"
           - name: github
             url: "https://github.com/SamilKaraduman"
           - name: linkedin
             url: "https://www.linkedin.com/in/samil-karaduman-3a8884292/"
-          - name: kofi
-            url: "https://ko-fi.com/samilkaraduman"
-          - name: rss
-            url: "index.xml"
-
+          - name: instagram
+            url: "https://www.instagram.com/sktothe6ix/"  
+         
   contentDir: content/blog/
   staticDir: static/
   publishDir: "data"
@@ -39,10 +40,10 @@ params:
       enabled: true
       title: I'm Samil!
       subtitle: "Welcome to my ~/home on the internet."
-      imageUrl: "profilepicture.png"
+      imageUrl: "pp.png"
       imageWidth: 120
       imageHeight: 120
-      imageTitle: Join me on my learning adventure!
+      imageTitle: This picture of me is NOT the result of Artificial Intelligence. This is really me, I just edited my sunglasses a bit in Pixelmator. 
       
      
        
@@ -59,12 +60,13 @@ menu:
    main:
      - identifier: About Me
        name: About Me
-       url: /about/aboutme
+       url: aboutme
        weight: 5
      - identifier: Blog
        name: Blog
        url: /blog
        weight: 10
+
     
 
 outputs:
