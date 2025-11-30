@@ -59,8 +59,8 @@ params:
 menu:
    main:
      - identifier: About Me
-       name: About Me
-       url: aboutme
+       name: About
+       url: about
        weight: 5
      - identifier: Blog
        name: Blog
